@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'easiris-front';
+  network = 'nx';
+
+  constructor() {
+    // if(this.network === 'nx') {
+    //   require('style-loader!../styles/styles-nx.css');
+    // } else {
+    //   require('style-loader!../styles/styles-ce.css');
+    // }
+  }
 }
