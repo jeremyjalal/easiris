@@ -10,7 +10,6 @@ import { HomeSummaryComponent } from './home-summary/home-summary.component';
   imports: [
     CommonModule,
     HomeRoutingModule
-  ],
-  exports: [HomeFirstConnectionComponent, HomeSummaryComponent]
+  ]
 })
 export class HomeModule { }
